@@ -14,6 +14,6 @@
 - Extract JavaFx  in C:\Program Files\JavaFX\
 - Then create a text file in the same folder as the downloaded loction of connect-4 app and paste : 
 ```sh
---module-path " C:\Program Files\JavaFX\javafx-sdk-14.0.1_windows-x64_bin-sdk\javafx-sdk-14.0.1\lib" --add-modules javafx.controls,javafx.fxml  
+java --module-path " C:\Program Files\JavaFX\javafx-sdk-14.0.1_windows-x64_bin-sdk\javafx-sdk-14.0.1\lib" --add-modules javafx.controls,javafx.fxml -jar Connect-4.jar 
 ```
 - Now save text file as .bat and run it 
